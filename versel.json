@@ -1,7 +1,7 @@
 {
 "builds": [
     {
-      "src": "indexx.js",
+      "src": "index.js",
       "use": "@vercel/node"
     },
     {
@@ -73,6 +73,10 @@
     {
       "src": "/create-payment-intent",
       "dest": "index.js"
+    },
+    {
+      "src": "/",
+      "dest": "build/index.html"
     },
     {
       "src": "/(.+)",
